@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 173px;
+}
+
+.navi {
+    float: right;
+    display: flex;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.nub {
+    opacity: 60%;
+}
+.nub:hover {
+    opacity: 100%;
+}
+.bar {
+    color:black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.bar:hover {
+    text-decoration: underline;
+}
+
+.bar1 {
+    display: inline-block;
+    line-height:24px;
+    outline:none;
+    align-items: center;
+}
+
+.dp {
+    border-radius: 50%;
+}
+
+.enter {
+    width: 29%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    color:black;
+    padding: 11px;
+    margin-top:5px;
+    font-size: 16px;
+    padding-inline-start: 40px;
+}
+
+/*Search icon in text field */
+.enter{
+    display:flex;
+    background: url("search.jpeg") left no-repeat;
+    background-size: 45px;
+    vertical-align: middle;
+}
+
+.enter:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.but {
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.but:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    background-color: #f8f9fa;
+    border: 4px black;
+    color: #202124;
+    position:sticky;
+}
+
+/*Languages offered Section*/
+p {
+    font-size: 13px;
+}
+
+.ling{
+    padding-left:3px;
+    padding-right:5px;
+    text-decoration: none;
+}
+
+.ling:hover{
+    text-decoration: underline;
+}
+/*Footer*/
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right:0;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #dadce0;
+    min-width: 400px;
+}
+
+.fut1{
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.item{
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+hr{
+    color: lightgrey;
+}
+
+span{
+    float:right;
+}
+
+.ryt{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+/*Footer on hover*/
+.fut1:hover {
+    text-decoration: underline;
+}
+
+.item:hover{
+    text-decoration: underline;
+}
+
+.ryt:hover{
+    text-decoration: underline;
+}
